@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <title>Roulette</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        user-select: none;
+      }
+  body {
+    background-color: darkgrey;
+  }
+      h1 {
+        font-size: 75px;
+        text-align: center;
+      }
+h2{
+  font-size: 30spx;
+  text-align: center;
+}
+#start {
+text-align: center;
+}
+img{
+ display: block;
+ width: 400px;
+ margin:auto;
+ rotate: 0deg;
+ transition: all 2s;
+ margin-bottom: 70px;
+}
+h2 {
+  position: absolute;
+  top:20vh;
+  text-align: center;
+  transition: all 2s;
+  z-index:100;
+  width: 360px;
+  font-size: 36px;
+  left: calc(50vw - 180px);
+  border: 4px solid black;
+  background-color: hotpink;
+  padding: 16px;
+  border-radius: 20px;
+  opacity: 0;
+}
+button{
+  background-color: orange;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px;
+}
+    </style>
+  </head>
+  <body>
+    
+    <h1>Dansk Roulette</h1>
+    <h2>hej</h2>
+    <img id="wheel" src="gun_PNG1358.png" alt="">
+    <div id="start">  
+      <button>Start</button>
+    </div>
+  
+
+    <script id="sketch" src="sketch.js"></script>
+  </body>
+</html>
